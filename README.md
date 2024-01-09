@@ -16,7 +16,7 @@ The project is organized into the following directories:
 `git clone https://github.com/Mariegacheri/To-Do-List-App-Project/tree/main`
 
 2. Navigate to the project directory:
-`cd todo-cli-app`
+`cd To-Do-List-App-Project`
 
 3. Install dependencies using Pipenv:
 `pipenv install`
@@ -58,3 +58,6 @@ Feel free to contribute to the project by opening issues or creating pull reques
 
 ## License
 This project is licensed under the MIT License.
+
+## Author
+Mwangi Mary.
