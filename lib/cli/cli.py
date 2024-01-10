@@ -18,13 +18,9 @@ def add_task():
 def list_tasks():
     TodoApp.list_tasks()
 
-# Add more commands as needed
-
 cli.add_command(initdb)
 cli.add_command(add_task)
 cli.add_command(list_tasks)
-
-# Add more commands as needed
 
 if __name__ == '__main__':
     cli()
