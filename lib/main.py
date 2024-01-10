@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine, Column, Integer, String, DateTime, ForeignKey
 from sqlalchemy.orm import sessionmaker, declarative_base, relationship
 import click
-from datetime import datetime
+
 
 Base = declarative_base()
 
@@ -26,7 +26,7 @@ class Task(Base):
     user = relationship('User')
     category = relationship('Category')
 
-DATABASE_URL = "sqlite:///./todo.db"
+DATABASE_URL = "sqlite:///todo.db"
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base.metadata.create_all(bind=engine)

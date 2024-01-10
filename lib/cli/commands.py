@@ -1,6 +1,6 @@
 import click
-from todo.database import SessionLocal
-from todo.models import Task
+from lib.database import SessionLocal
+from lib.models import Task
 
 @click.group()
 def cli():
