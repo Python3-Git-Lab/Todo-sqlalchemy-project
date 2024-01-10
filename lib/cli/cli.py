@@ -1,14 +1,28 @@
+# cli/cli.py
 import click
-from todo.cli_commands import initdb, add_task, list_tasks, dsa_example
+from main import TodoApp
 
 @click.group()
 def cli():
     pass
 
+@click.command()
+def initdb():
+    TodoApp.init_db()
+
+@click.command()
+def add_task():
+    TodoApp.add_task()
+
+@click.command()
+def list_tasks():
+    TodoApp.list_tasks()
+
+# Add more commands as needed
+
 cli.add_command(initdb)
 cli.add_command(add_task)
 cli.add_command(list_tasks)
-cli.add_command(dsa_example)
 
 # Add more commands as needed
 
