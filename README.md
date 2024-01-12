@@ -60,4 +60,4 @@ Feel free to contribute to the project by opening issues or creating pull reques
 This project is licensed under the MIT License.
 
 ## Author
-Mwangi Mary.
+David Muchoki
