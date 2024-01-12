@@ -60,4 +60,5 @@ Feel free to contribute to the project by opening issues or creating pull reques
 This project is licensed under the MIT License.
 
 ## Author
-David Muchoki
+1. David Muchoki
+2. Mary njeri
