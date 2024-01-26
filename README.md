@@ -13,7 +13,7 @@ The project is organized into the following directories:
 ### Installation
 1. Clone the repository:
 
-`git clone https://github.com/Mariegacheri/To-Do-List-App-Project/tree/main`
+`git clone https://github.com/MuchokiDavid/To-Do-List-App-Project/tree/main`
 
 2. Navigate to the project directory:
 `cd To-Do-List-App-Project`
